@@ -62,6 +62,12 @@ export const orderApiSlice = apiSlice.injectEndpoints({
     getTotalSalesByDate: builder.query({
       query: () => `${ORDERS_URL}/total-sales-by-date`,
     }),
+    
+    // getUserOrders: builder.query({
+    //   query: () => ({
+    //     url: `${ORDERS_URL}/user-orders`, // Assuming this endpoint is available on your backend
+    //   }),
+    // }),
   }),
 });
 

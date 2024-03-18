@@ -12,6 +12,8 @@ import {
   usePayOrderMutation,
 } from "../../redux/api/orderApiSlice";
 
+
+//   /order/id  endpoint 
 const Order = () => {
   const { id: orderId } = useParams();
 

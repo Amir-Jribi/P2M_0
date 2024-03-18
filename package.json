@@ -1,7 +1,7 @@
 {
-  "name": "MERN e-commerce",
+  "name": "P2M ",
   "version": "1.0.0",
-  "description": "MERN Stack E-Commerce Project",
+  "description": "P2M project using MERN Stack",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "dev": "concurrently \"npm run frontend\" \"npm run backend"
   },
   "keywords": [],
-  "author": "HuXn WebDev",
+  "author": "Amir Jribi",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
